@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { format } from "date-fns";
 import { CalendarIcon, Search } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import {
@@ -41,7 +40,7 @@ const FilterPenal = () => {
               Date Range
             </p>
 
-            <Popover>
+            <Popover className="text-white">
               <PopoverTrigger className="flex w-full items-center justify-start gap-3 rounded-md border border-white/10 bg-[#080d0a] px-4 py-2 text-white hover:bg-white/5 sm:w-full">
                 <CalendarIcon className="size-4 text-[#4edea3]" />
                 {dateRange?.from ? (
