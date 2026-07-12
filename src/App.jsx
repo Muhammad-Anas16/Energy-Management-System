@@ -1,9 +1,9 @@
 import "./App.css";
-import DataTable from "./components/DataTable";
-import FilterPenal from "./components/filterPenal";
 import Navbar from "./components/navbar";
-import StatsCards from "./components/statsCards";
 import TitleHeader from "./components/titleHeader";
+import FilterPenal from "./components/filterPenal";
+import StatsCards from "./components/StatsCards";
+import DataTable from "./components/DataTable";
 
 function App() {
   return (
